@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+video {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+}
+canvas {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+}
+.handOverlay {
+    position: absolute;
+    z-index: 2;
+    width: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+}
+
+
+.notes {
+    position: absolute;
+    bottom: 0px;
+    min-width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.notes h3 {
+    font-size: 25px;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
